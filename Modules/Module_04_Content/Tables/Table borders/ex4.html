@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical alignment</title>
+
+    <link rel="stylesheet" href="/bootstrap/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="table-responsive">
+                <table class="table align-middle">
+                  <thead>
+                    <tr>
+                      <th>Heading 1	</th>
+                      <th>Heading 2</th>
+                      <th>Heading 3</th>
+                      <th>Heading 4</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                    <td>This cell inherits vertical-align: middle; from the table</td>
+                    <td>This cell inherits vertical-align: middle; from the table</td>
+                    <td>This cell inherits vertical-align: middle; from the table</td>
+                    <td>This here is some placeholder text, intended to take up quite a bit of vertical space, to demonstrate how the vertical alignment works in the preceding cells.</td>
+                    </tr>
+                    <tr class="align-bottom">
+                      <td>This cell inherits vertical-align: bottom; from the table row</td>
+                      <td>This cell inherits vertical-align: bottom; from the table row</td>
+                      <td>This cell inherits vertical-align: bottom; from the table row</td>
+                      <td>This here is some placeholder text, intended to take up quite a bit of vertical space, to demonstrate how the vertical alignment works in the preceding cells</td>
+                    </tr>
+                    <tr>
+                      <td>This cell inherits vertical-align: bottom; from the table row</td>
+                      <td class="align-top">This cell is aligned to the top.</td>
+                      <td>This here is some placeholder text, intended to take up quite a bit of vertical space, to demonstrate how the vertical alignment works in the preceding cells</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+        </div>
+    </div>
+    <script src="/bootstrap/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+    
+</body>
+</html>
